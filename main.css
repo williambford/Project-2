@@ -1,1 +1,15 @@
-main.css
+body {
+  background-image: url("images/waves.jpg");
+}
+
+.nav {
+  width: 50px
+  background-color: rgb(178,242,224);
+
+}
+
+.logo {
+  float: left;
+  width: 11%;
+  padding:10px;
+}
