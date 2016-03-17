@@ -1,19 +1,56 @@
 body {
   background-image: url("images/waves.jpg");
 }
-
-.nav {
+.nav, .nav-background {
   width: 15%;
   background-color: rgb(178,242,224);
 }
+.nav-background {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
 
-.logo {
+}
+.nav {
   float: left;
-  width: 11%;
-  padding:10px;
+  position: relative;
+  z-index: 1;
+  line-height: 2em;
 }
 
-.h4 {
-  font-family: font-family: 'Oswald', sans-serif;
+.logo {
+  width: 80%;
+  float: left;
+  padding: 20px;
+}
 
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+
+.dolphin {
+  width: 85%;
+  position: relative;
+  margin-left: 8%;
+  margin-top: 60px;
+}
+
+.main {
+  width: 85%;
+  float: left;
+}
+
+.logo-type {
+  width: 35%;
+  margin: 0 auto;
+  display: block;
+}
+
+.blonde {
+  width: 40%;
 }
