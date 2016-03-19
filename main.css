@@ -49,8 +49,31 @@ h4 {
   width: 35%;
   margin: 0 auto;
   display: block;
+  margin-top: 20px;
+
 }
 
 .blonde {
-  width: 40%;
+  width: 50%;
+  padding: 20px;
+  margin-top:30px;
+  margin-right: -10px;
+}
+
+.henna {
+  width: 21%;
+  margin-bottom: 150px;
+}
+
+.extensions {
+  width: 20%;
+  margin-left: 15px;
+  margin-bottom: 110px;
+}
+
+.beauty-slash {
+  float: right;
+  margin-right: 60px;
+  margin-top: -90px;
+
 }
