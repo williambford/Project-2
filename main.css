@@ -2,8 +2,8 @@ body {
   background-image: url("images/waves.jpg");
 }
 .nav, .nav-background {
-  width: 15%;
-  background-color: rgb(178,242,224);
+  width: 14%;
+  background-color: rgb(89,127,196);
 }
 .nav-background {
   position: fixed;
@@ -17,7 +17,7 @@ body {
   float: left;
   position: relative;
   z-index: 1;
-  line-height: 2em;
+  line-height: 3em;
 }
 
 .logo {
@@ -29,7 +29,9 @@ body {
 
 h4 {
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  color: rgb(218,241,249);
+  letter-spacing: 1.5px;
 }
 
 
@@ -37,9 +39,10 @@ h4 {
   width: 85%;
   position: relative;
   margin-left: 8%;
-  margin-top: 60px;
+  margin-top: 350px;
 }
 
+    /* Main section begins */
 .main {
   width: 85%;
   float: left;
@@ -75,5 +78,66 @@ h4 {
   float: right;
   margin-right: 60px;
   margin-top: -90px;
+}
 
+    /* Services section begins */
+
+.services {
+ background-color: white;
+ width: 30%;
+ margin: 1%;
+ float:left;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ border: solid white 2px;
+}
+
+.services img {
+  width: 50%;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.haircut {
+  width: 32%;
+}
+
+.rubio,
+.trump {
+  margin-left: 19%;
+}
+
+.cruz,
+.kasich {
+  margin-right: 19%;
+}
+
+.trump {
+  clear: left;
+}
+
+@media screen and (min-width: 741px) {
+  .candidates {
+    width: 20%;
+  }
+
+  .rubio {
+    margin-left: 7%;
+  }
+
+  .cruz {
+    margin-right: 1%;
+  }
+  .trump {
+    margin-left: 1%;
+    clear: none;
+  }
+
+  .kasich {
+    margin-right: 7%;
+  }
+
+      /* Footer section begins */
 }
