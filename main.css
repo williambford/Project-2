@@ -34,12 +34,11 @@ h4 {
   letter-spacing: 1.5px;
 }
 
-
 .dolphin {
   width: 85%;
   position: relative;
   margin-left: 8%;
-  margin-top: 250px;
+  margin-top: 520px;
 }
 
     /* Main section begins */
@@ -65,46 +64,52 @@ h4 {
 
 .henna {
   width: 21%;
-  margin-bottom: 150px;
+  margin-bottom: 160px;
 }
 
 .extensions {
   width: 20%;
   margin-left: 15px;
-  margin-bottom: 110px;
+  margin-bottom: 130px;
 }
 
 .beauty-slash {
   float: right;
   margin-right: 60px;
-  margin-top: -90px;
+  margin-top: -120px;
 }
 
     /* Services section begins */
 
 .services {
-
   width: 20%;
-  margin: 10px;
+  margin: 5px;
   float:left;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   margin-left: 100px;
   margin-top: 75px;
   margin-bottom: 10px;
-  padding: 1%;
+
 }
+
+.services img {
+  width: 85%;
+}
+
 
 h2 {
   font-size: 22px;
   color: rgb(48,96,179);
   line-height: 120%;
   margin-bottom: 6px;
+  margin-top: -20px;
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(48,96,179);
+  margin-top: 4px;
 }
 
       /* Footer section begins */
@@ -120,18 +125,22 @@ h3 {
 .footer {
   background-color: rgb(89,127,196);
   text-align: center;
-  display: block;
+  display: inline;
   float: left;
   padding: 11px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 10%;
+  margin-right: 5%;
   margin-bottom: 30px;
  }
 
-.haircut {
-  outline: 4px;
-  color: white;
-}
+ .scissors {
+   width: 43px;
+ }
+
+
+
+
 
 
 }
