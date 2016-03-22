@@ -33,6 +33,7 @@ body {
 h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
+  font-weight: 100;
   color: rgb(231,245,250);
   letter-spacing: 1.5px;
 }
@@ -60,6 +61,7 @@ h4 {
 }
 
 .blonde {
+  float: left;
   width: 50%;
   padding: 20px;
   margin-top:30px;
@@ -69,19 +71,21 @@ h4 {
 
 .henna {
   width: 22%;
-  margin-bottom: 160px;
+  margin-top: 80px;
+  float: left;
 }
 
 .extensions {
   width: 21%;
   margin-left: 15px;
-  margin-bottom: 130px;
+  margin-top: 80px;
+  float: right;
 }
 
 .beauty-slash {
   float: right;
-  margin-right: 60px;
-  margin-top: -120px;
+  margin-right: 50px;
+  margin-top: 13px;
 }
 
     /* Services section begins */
@@ -100,7 +104,18 @@ h4 {
 
 .services img {
   width: 70%;
+}
 
+.haircut {
+  float: left;
+}
+
+.manicure {
+  float: left;
+}
+
+.extensions {
+  float: left;
 }
 
 
@@ -116,12 +131,14 @@ h6 {
   font-size: 14px;
   color: rgb(48,96,179);
   margin-top: 4px;
+  float: left;
 }
 
       /* Footer section begins */
 
 h3 {
   font-family: 'Oswald', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   height: 40px;
   line-height: 40px;
@@ -130,8 +147,7 @@ h3 {
   padding: 3px;
   margin-left: 5px;
   float: left;
-
-    }
+}
 
 .footer {
   display: block;
@@ -149,6 +165,7 @@ h3 {
 
  .scissors {
    width: 43px;
+
  }
 
 
