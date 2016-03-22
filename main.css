@@ -63,29 +63,30 @@ h4 {
 .blonde {
   float: left;
   width: 50%;
-  padding: 20px;
-  margin-top:30px;
-  margin-right: -10px;
-  margin-left: 20px;
+  padding: 2%;
+  margin-top:3%;
+  margin-right: -1%;
+  margin-left: 1.5%;
 }
 
 .henna {
   width: 22%;
-  margin-top: 80px;
+  margin-top: 7%;
   float: left;
 }
 
 .extensions {
   width: 21%;
-  margin-left: 15px;
-  margin-top: 80px;
+  margin-left: 1%;
+  margin-top: 8%;
   float: right;
 }
 
 .beauty-slash {
   float: right;
-  margin-right: 50px;
-  margin-top: 13px;
+  margin-right: 5.5%;
+  margin-top: 1%;
+  width: 39;
 }
 
     /* Services section begins */
