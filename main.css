@@ -127,13 +127,24 @@ li a:hover {
   margin-left: 2.5%;
 }
 
+.haircut img {
+  border: 1px solid gray;
+}
+
 .manicure {
+}
+
+.manicure img {
+  border: 1px solid gray;
 }
 
 .waxing {
   margin-right: 0;
 }
 
+.waxing img {
+  border: 1px solid gray;
+}
 
 h2 {
   font-size: 22px;
