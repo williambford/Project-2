@@ -39,13 +39,21 @@ body {
   padding: 20px;
 }
 
-
-h4 {
+li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   font-weight: 100;
   color: rgb(231,245,250);
   letter-spacing: 1.5px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(108,202,202);
+    color: white;
 }
 
     /* Main section begins */
@@ -139,6 +147,8 @@ h6 {
   color: rgb(48,96,179);
   margin-top: 4px;
   float: left;
+  letter-spacing: .5px;
+  line-height: 112%;
 
 }
 
