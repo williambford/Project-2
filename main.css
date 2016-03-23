@@ -24,8 +24,8 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
-
 }
+
 .nav {
   float: left;
   position: relative;
@@ -120,6 +120,7 @@ li a:hover {
   float: left;
   width: 25%;
   margin-right: 10%;
+  border: 2px;
 }
 
 .haircut {
