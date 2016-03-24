@@ -1,18 +1,18 @@
 /* Keeps elements from collapsing when objects inside of them are floated left/right
 found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
 .clearfix:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 body {
   background-image: url("images/waves.jpg");
 }
 
-    /* Navigation section begins */
+/* Navigation section begins */
 
 .nav, .nav-background {
   width: 14%;
@@ -52,11 +52,11 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: rgb(108,202,202);
-    color: white;
+  background-color: rgb(108,202,202);
+  color: white;
 }
 
-    /* Main section begins */
+/* Main section begins */
 
 .main {
   width: 85%;
@@ -99,7 +99,7 @@ li a:hover {
   width: 39%;
 }
 
-    /* Services section begins */
+/* Services section begins */
 
 .services {
   width: 65%;
@@ -164,7 +164,7 @@ h6 {
 
 }
 
-      /* Footer section begins */
+/* Footer section begins */
 
 h3 {
   font-family: 'Oswald', sans-serif;
@@ -192,19 +192,13 @@ h3.bold {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 30px;
- }
+}
 
- .scissors {
-   width: 43px;
-   margin: 0 4px;
-   vertical-align: middle;
-   margin-top: -10px;
-
- }
-
-
-
-
-
+.scissors {
+  width: 43px;
+  margin: 0 4px;
+  vertical-align: middle;
+  margin-top: -10px;
+}
 
 }
