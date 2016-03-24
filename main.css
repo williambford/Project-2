@@ -35,8 +35,8 @@ body {
 
 .logo {
   width: 80%;
-  float: left;
-  padding: 20px;
+  padding: 20px 10%;
+  display: block;
 }
 
 li a {
