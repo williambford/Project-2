@@ -55,3 +55,41 @@ li a:hover {
   background-color: rgb(108,202,202);
   color: white;
 }
+
+
+/* Footer section begins */
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 50px;
+  color: rgb(231,245,250);
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+h3.bold {
+  font-weight: 500;
+}
+
+.footer {
+  display: block;
+  width: 80%;
+  background-color: rgb(89,127,196);
+  text-align: center;
+  display: inline;
+  float: left;
+  padding: 5px;
+  margin-top: 90px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+}
+
+.scissors {
+  width: 43px;
+  margin: 0 4px;
+  vertical-align: middle;
+  margin-top: -10px;
+}
