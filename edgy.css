@@ -3,13 +3,50 @@
 .edgyhair {
   width: 85%;
   float: left;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 2%;
 }
+
+.edgyhair img {
+  width: 70%;
+}
+
+.edgyhair-top {
+  width: 42%;
+}
+
+.insidelayers,
+.disconnected,
+.deconstructed {
+    width: 25%;
+    float: left;
+    margin-top: 25%;
+  }
+
+
+  .insidelayers {
+    margin-left: 35%;
+  }
+
+
+
 h1 {
   font-family: 'Oswald', sans-serif;
+  text-align: center;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 50px;
-  color: rgb(231,245,250);
-  letter-spacing: 2px;
+  color: rgb(48,96,179);
+  display: inline-block;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(48,96,179);
   display: inline-block;
 }
