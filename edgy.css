@@ -35,27 +35,28 @@ h2 {
   font-family: 'Oswald', sans-serif;
   color: rgb(48,96,179);
   margin-bottom: 6px;
+
 }
 
 .spikehawk {
   float: left;
   width: 21%;
   padding: 2%;
-  margin-top:-12%;
+  margin-top:-10%;
   margin-right: -2%;
   margin-left: 17%;
 }
 
 .deconstructed {
   width: 19%;
-  margin-top: -9%;
+  margin-top: -8%;
   float: left;
   padding: 1%
 }
 
 .featherweight {
   width: 17%;
-  margin-top: -7%;
+  margin-top: -6%;
   float: left;
   padding: 1%;
 }
