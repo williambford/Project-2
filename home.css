@@ -7,7 +7,7 @@
 }
 
 .logo-type {
-  width: 35%;
+  width: 40%;
   margin: 0 auto;
   display: block;
   margin-top: 20px;
@@ -71,14 +71,14 @@
 }
 
 .haircut img {
-  border: 1px solid gray;
+  border: 3px solid rgb(122,197,224);
 }
 
 .manicure {
 }
 
 .manicure img {
-  border: 1px solid gray;
+  border: 3px solid rgb(122,197,224);
 }
 
 .waxing {
@@ -86,7 +86,7 @@
 }
 
 .waxing img {
-  border: 1px solid gray;
+  border: 3px solid rgb(122,197,224);
 }
 
 h2 {
@@ -94,7 +94,6 @@ h2 {
   color: rgb(48,96,179);
   line-height: 120%;
   margin-bottom: 6px;
-
 }
 
 h6 {
