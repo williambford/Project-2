@@ -57,6 +57,14 @@ li a:hover {
 }
 
 
+/* Main section begins */
+
+.main {
+  width: 85%;
+  float: left;
+}
+
+
 /* Footer section begins */
 
 h3 {
