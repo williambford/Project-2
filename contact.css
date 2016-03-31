@@ -21,9 +21,9 @@ h1 {
 }
 
 /* Google Map begins */
-.googleMap {
-  margin-top: 5%;
-  margin-left: 20%;
+#googleMap {
+  max-width: 80%;
+  margin: 5% auto;
 }
 
 
