@@ -38,28 +38,27 @@
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 <script>
-var myCenter=new google.maps.LatLng(30.40985,-87.21640);
-var marker;
+  var myCenter=new google.maps.LatLng(30.40985,-87.21640);
+  var marker;
 
-function initialize()
-{
-var mapProp = {
-  center:myCenter,
-  zoom:15,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
+  function initialize() {
+    var mapProp = {
+      center:myCenter,
+      zoom:15,
+      mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
 
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-var marker=new google.maps.Marker({
-  position:myCenter,
-  animation:google.maps.Animation.BOUNCE
-  });
+    var marker=new google.maps.Marker({
+      position:myCenter,
+      animation:google.maps.Animation.BOUNCE
+      });
 
-marker.setMap(map);
-}
+    marker.setMap(map);
+  }
 
-google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 <div id="googleMap" style="width:500px;height:380px;"></div>
