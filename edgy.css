@@ -8,10 +8,6 @@ h1 {
   margin-top: 2%;
 }
 
-.edgyhair img {
-  max-width: 100%;
-}
-
 .insidelayers {
   float: left;
   width: 22%;
@@ -39,7 +35,6 @@ h2 {
   font-family: 'Oswald', sans-serif;
   color: rgb(48,96,179);
   margin-bottom: 6px;
-
 }
 
 .spikehawk {
@@ -70,5 +65,4 @@ h2 {
   width: 15%;
   padding: 1%;
   margin-top: -6%;
-
 }

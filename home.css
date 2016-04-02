@@ -5,6 +5,10 @@
   margin-top: 20px;
 }
 
+.edgyhair img {
+  max-width: 100%;
+}
+
 .blonde {
   float: left;
   width: 50%;
