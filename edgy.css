@@ -8,6 +8,10 @@ h1 {
   margin-top: 2%;
 }
 
+.edgyhair img {
+  max-width: 100%;
+}
+
 .insidelayers {
   float: left;
   width: 22%;
@@ -37,6 +41,8 @@ h2 {
   margin-bottom: 6px;
   text-align: center;
 }
+
+/* Edgyhair-bottom section begins */
 
 .spikehawk {
   float: left;
