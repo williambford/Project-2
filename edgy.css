@@ -14,23 +14,25 @@ h1 {
 
 .insidelayers {
   float: left;
-  width: 22%;
-  margin-top:6%;
-  margin-left: 8%;
+  width: 30.5%;
+  margin-top: 6%;
+  margin-left: 5%;
   padding: 0%;
 }
 
 .disconnected {
-  width: 25%;
-  margin-top: 6%;
+  width: 34%;
+  margin-top: 7%;
+  margin-left: -2%;
   float: left;
 }
 
 .goldenwaves {
   float: left;
-  width: 25%;
-  margin-top: 8%;
-  margin-right: 0%;
+  width: 34%;
+  margin-top: 10%;
+  margin-left: -2.5%;
+
 }
 
 
@@ -40,36 +42,40 @@ h2 {
   color: rgb(48,96,179);
   margin-bottom: 6px;
   text-align: center;
+  line-height: 2%;
 }
 
 /* Edgyhair-bottom section begins */
 
 .spikehawk {
   float: left;
-  width: 21%;
+  width: 28%;
   padding: 2%;
-  margin-top:-2%;
+  margin-top: -5%;
   margin-right: -2%;
-  margin-left: 7%;
+  margin-left: 3%;
 }
 
 .deconstructed {
-  width: 19%;
-  margin-top: 0%;
+  width: 25%;
+  margin-top: -2%;
+  margin-left: -2%;
   float: left;
   padding: 1%
 }
 
 .featherweight {
-  width: 17%;
-  margin-top: 1%;
+  width: 22%;
+  margin-top: 1.5%;
+  margin-left: -2%;
   float: left;
   padding: 1%;
 }
 
 .copper {
   float: left;
-  width: 15%;
+  width: 18%;
   padding: 1%;
   margin-top: 3%;
+  margin-left: -2%;
 }
